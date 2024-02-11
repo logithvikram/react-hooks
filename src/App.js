@@ -1,5 +1,6 @@
 import './App.css';
 import Effect from './Effect';
+import Layout from './Layout';
 import Reducer from './Reducer';
 import Ref from './Ref';
 import UseState from './UseState';
@@ -25,6 +26,10 @@ function App() {
      <div className='useRef'>
       <h1>useRef</h1>
        <Ref/>
+     </div>
+     <div className='useLayout'>
+      <h1>useLayout</h1>
+       <Layout/>
      </div>
     </div>
   );
